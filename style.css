@@ -306,7 +306,8 @@ a:hover {
 
 #spotify-container {
     position: relative;
-    width: 100%;
+    width: 90%; /* Ajusta el ancho según tus preferencias */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
     padding-top: 56.25%; /* Esto es para mantener la proporción 16:9 */
 }
 
