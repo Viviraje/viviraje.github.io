@@ -309,6 +309,8 @@ a:hover {
     width: 90%; /* Ajusta el ancho según tus preferencias */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     padding-top: 56.25%; /* Esto es para mantener la proporción 16:9 */
+    margin-top: 1em;
+    margin-bottom: 1em; 
 }
 
 #spotify-container iframe {
