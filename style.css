@@ -304,27 +304,19 @@ a:hover {
     left: 0;
 }
 
-.containerSpotify-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 #spotify-container {
+    position: relative;
     width: 90%; /* Ajusta el ancho según tus preferencias */
-    overflow: hidden; /* Oculta cualquier contenido adicional fuera del contenedor */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding-top: 56.25%; /* Esto es para mantener la proporción 16:9 */
 }
 
 #spotify-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    border: none; /* Elimina cualquier borde del iframe */
-    border-radius: 10px; /* Aplica bordes redondeados al iframe */
-    box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.5); /* Añade una sombra ligera desplazada */
 }
 
 /* Estilos para el banner de aviso */
