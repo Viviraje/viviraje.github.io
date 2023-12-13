@@ -148,8 +148,9 @@ a:hover {
     position: relative;
     padding-bottom: 56.25%; /* Proporción 16:9 para videos */
     height: 0;
-    max-width: 800px;
+    max-width: 400px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .video-container iframe {
