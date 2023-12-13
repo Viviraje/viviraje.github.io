@@ -145,7 +145,7 @@ a:hover {
 
 .video-containerX {
   display: flex;
-  position: absolute;
+  position: relative;
   width: 100%;
   max-width: 25em;
   height: auto;
@@ -158,6 +158,7 @@ a:hover {
 }
 
 .video-containerX iframe {
+  position: absolute;
   border-radius: 10px;
   width: 100%;
   height: 100%;
