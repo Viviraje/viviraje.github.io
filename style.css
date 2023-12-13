@@ -409,7 +409,7 @@ footer {
         width: 380px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 4px;
+        margin-top: 15px;
         display: block; /* Asegura que la imagen sea un bloque para que los márgenes automáticos funcionen correctamente */
         border-radius: 10px;
     }
