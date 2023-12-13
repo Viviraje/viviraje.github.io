@@ -145,7 +145,7 @@ a:hover {
 
 .video-containerX {
   display: flex;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -161,6 +161,8 @@ a:hover {
   box-shadow: 4px 8px 20px 0.5px rgba(0, 0, 0, 0.5);
   aspect-ratio: 16/9;
   justify-content: center;
+  overflow: hidden;
+
 }
 
 .video-containerX iframe {
