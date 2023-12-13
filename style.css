@@ -397,7 +397,7 @@ footer {
     }
 
     .video-container {
-        max-width: 25%;
+        max-width: 25vw;
         margin: 0 auto; /* Centra el contenedor horizontalmente */
     }
 }
