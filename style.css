@@ -426,4 +426,8 @@ footer {
     .video-containerX iframe {
         border-radius: 10px;
     }
+
+    nav {
+        margin-bottom: 15px;
+    }
 }
