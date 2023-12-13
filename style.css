@@ -406,13 +406,11 @@ footer {
         display: block; /* Asegura que la imagen sea un bloque para que los márgenes automáticos funcionen correctamente */
     }
 
-    .video-container {
-        width: 100%;
-        padding-bottom: 56.25%;
-        overflow: hidden;
+    .video-container iframe {
+        width: 100px;
         margin-left: auto;
         margin-right: auto;
         display: block; /* Asegura que la imagen sea un bloque para que los márgenes automáticos funcionen correctamente */
-        max-width: 25%;
+
     }
 }
