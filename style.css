@@ -151,7 +151,7 @@ a:hover {
     margin: 0 auto;
     max-width: 25em;
     border-radius: 10px;
-    box-shadow: 4px 8px 20px 0.5px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 8px 20px 0.5px rgba(0, 0, 0, 0.5), 0 0 2px 0 rgba(0, 0, 0, 0);
     overflow: hidden;
 }
 
@@ -159,7 +159,6 @@ a:hover {
     width: 100%; /* El video ocupará el 100% del contenedor */
     height: 100%; /* Esto mantendrá la proporción original del video */
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 1);
 }
 
 
