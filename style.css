@@ -156,14 +156,10 @@ a:hover {
 }
 
 .video-containerX iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%; /* El video ocupará el 100% del contenedor */
     height: 100%; /* Esto mantendrá la proporción original del video */
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, 1);
-    z-index: 1;
 }
 
 
