@@ -145,10 +145,11 @@ a:hover {
 
 .video-containerX {
   display: flex;
+  position: absolute;
   width: 100%;
   max-width: 25em;
   height: auto;
-  margin: 0 0 0 50%;
+  margin: 0;
   padding: 0;
   border-radius: 10px;
   box-shadow: 4px 8px 20px 0.5px rgba(0, 0, 0, 0.5);
