@@ -150,6 +150,7 @@ a:hover {
     height: 0;
     overflow: hidden;
     max-width: 600px; /* Establece el máximo ancho que deseas para el video */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .video-container iframe {
