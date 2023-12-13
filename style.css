@@ -145,7 +145,7 @@ a:hover {
 
 .video-containerX {
   display: flex;
-  position: relative;
+  position: fixed;
   width: 100%;
   max-width: 25em;
   height: auto;
