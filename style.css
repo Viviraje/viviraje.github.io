@@ -150,7 +150,7 @@ a:hover {
     height: 0;
     overflow: hidden;
     max-width: 480px; /* Establece el máximo ancho que deseas para el video */
-    max-hight: 270px;
+    max-height: 270px;
     margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
