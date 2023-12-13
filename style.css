@@ -25,6 +25,12 @@ ul {
     list-style-type: none;
 }
 
+.salto{
+    height: 1%;
+    background-color: #ffffff;
+}
+    
+
 .textoCuerpo {
     font-size: 16pt;
     margin: 0;
