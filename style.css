@@ -158,9 +158,9 @@ a:hover {
         display: none;
     }
 
-    .ul-list {
+    .menu {
         margin-top: 2px;
-        display: block;
+        display: flex;
     }
 
     .menubutton {
