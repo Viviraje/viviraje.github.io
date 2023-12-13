@@ -400,4 +400,9 @@ footer {
         max-width: 25vw;
         margin: 0 auto; /* Centra el contenedor horizontalmente */
     }
+
+    .video-container iframe {
+        max-width: 25vw;
+        margin: 0 auto;
+    }
 }
