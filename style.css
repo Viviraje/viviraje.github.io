@@ -156,9 +156,6 @@ a:hover {
 
 .video-container {
     position: relative;
-    width: 100%;
-    max-width: 420px; /* Ancho máximo deseado */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
     padding-bottom: 56.25%; /* Proporción 16:9 para videos */
     height: 0;
     overflow: hidden;
@@ -169,7 +166,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%; /* El video ocupará el 100% del contenedor */
-    height: auto; /* Esto mantendrá la proporción original del video */
+    height: 100%; /* Esto mantendrá la proporción original del video */
 }
 
 .social-links {
