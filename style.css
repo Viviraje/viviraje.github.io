@@ -168,17 +168,10 @@ a:hover {
     }
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
-    height: 100%;
-    margin-bottom: 10px;
-    margin-top: 15px;
-}
-
 .video-container {
     position: relative;
+    max-width: 600px; /* Ancho máximo deseado */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
     padding-bottom: 56.25%; /* Proporción 16:9 para videos */
     height: 0;
     overflow: hidden;
@@ -188,8 +181,17 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100%; /* El video ocupará el 100% del contenedor */
+    height: 100%; /* Esto mantendrá la proporción original del video */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
     height: 100%;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .social-links a {
