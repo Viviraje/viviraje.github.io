@@ -411,4 +411,8 @@ footer {
     .footer-logo img {
         width: 50px;
     }
+
+    .img {
+        width: 380px;
+    }   
 }
