@@ -401,7 +401,7 @@ footer {
         padding-bottom: 56.25%; /* Proporción 16:9 para videos */
         height: auto;
         overflow: hidden;
-        max-width: 25vw;
+        max-width: 35vw;
         margin: 0 auto; /* Centra el contenedor horizontalmente */
     }
 
@@ -411,7 +411,7 @@ footer {
         left: 0;
         width: 100%; /* El video ocupará el 100% del contenedor */
         height: 100%;
-        max-width: 25vw;
+        max-width: 35vw;
         height: auto;
         margin: 0 auto;
     }
