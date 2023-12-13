@@ -125,24 +125,14 @@ a:hover {
 @media all and (min-width: 37.5em) {
     .logo {
         flex: 1;
+        order: 0;
     }
    .menu-item.button {
         width: auto;
         border-bottom: 0;
     }
-}
-
-
-/* Desktop menu */
-
-@media all and (min-width: 60em) {
     .menu-item {
         width: auto;
-    }
-    .logo {
-        order: 0;
-    }
-    .menu-item {
         order: 1;
     }
     .button {
