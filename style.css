@@ -130,6 +130,11 @@ a:hover {
         width: auto;
         border-bottom: 0;
     }
+
+    .menu {
+        margin-top: 2px;
+        display: flex;
+    }
 }
 
 /* Desktop menu */
