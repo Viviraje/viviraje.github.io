@@ -175,7 +175,8 @@ a:hover {
 
 .video-container {
     position: relative;
-    max-width: 600px; /* Ancho máximo deseado */
+    width: 100%;
+    max-width: 420px; /* Ancho máximo deseado */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     padding-bottom: 56.25%; /* Proporción 16:9 para videos */
     height: 0;
