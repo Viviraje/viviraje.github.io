@@ -169,7 +169,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%; /* El video ocupará el 100% del contenedor */
-    height: 100%; /* Esto mantendrá la proporción original del video */
+    height: auto; /* Esto mantendrá la proporción original del video */
 }
 
 .social-links {
