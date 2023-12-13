@@ -121,57 +121,38 @@ a:hover {
 }
 
 /* Tablet menu */
+
 @media all and (min-width: 37.5em) {
     .logo {
         flex: 1;
     }
-
-    .menu-item.button {
+   .menu-item.button {
         width: auto;
         border-bottom: 0;
     }
-
-    .menu {
-        margin-top: 2px;
-        display: flex;
-    }
 }
 
+
 /* Desktop menu */
+
 @media all and (min-width: 60em) {
     .menu-item {
         width: auto;
     }
-
     .logo {
         order: 0;
     }
-
     .menu-item {
         order: 1;
     }
-
     .button {
         order: 2;
     }
-
     .menu li.button {
         padding-right: 0;
     }
-
-    .toggle {
-        display: none;
-    }
-
-    .menu {
-        margin-top: 2px;
-        display: flex;
-    }
-
-    .menubutton {
-        display: none;
-    }
 }
+
 
 .video-container {
     position: relative;
