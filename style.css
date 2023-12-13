@@ -148,7 +148,6 @@ a:hover {
 .video-containerX {
     position: relative;
     aspect-ratio: 16/9; /* Proporción 16:9 para videos */
-    height: 0;
     margin: 0 auto;
     max-width: 25em;
     border-radius: 10px;
