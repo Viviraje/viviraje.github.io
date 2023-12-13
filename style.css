@@ -395,4 +395,8 @@ footer {
         margin-right: auto;
         display: block; /* Asegura que la imagen sea un bloque para que los márgenes automáticos funcionen correctamente */
     }
+
+    .video-container {
+        max-width: 380px;
+    }
 }
