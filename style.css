@@ -402,3 +402,9 @@ footer {
     font-size: 0.8rem;
     color: white;
 }
+
+@media all and (min-width: 37.5em) {
+    .botonBlog {
+        width: 150px;
+    }
+}
