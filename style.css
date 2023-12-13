@@ -407,7 +407,11 @@ footer {
     }
 
     .video-container {
+        position: absolute;
         width: 380px;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
         margin-left: auto;
         margin-right: auto;
         display: block; /* Asegura que la imagen sea un bloque para que los márgenes automáticos funcionen correctamente */
