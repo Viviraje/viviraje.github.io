@@ -307,7 +307,7 @@ a:hover {
     width: 90%; /* Ajusta el ancho según tus preferencias */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     aspect-ratio: 16/9; /* Proporción 16:9 para videos */
-    max-width: 25em;
+    max-width: 18em;
     margin-top: 1em;
     margin-bottom: 1em; 
 }
