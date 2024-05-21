@@ -277,7 +277,7 @@ a:hover {
     height: auto;
     object-fit: cover;
     margin: 5px;
-    max-width: 100%;
+    max-width: 50vw;
     box-sizing: border-box;
 }
 
