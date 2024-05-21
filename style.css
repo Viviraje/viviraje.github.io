@@ -244,6 +244,7 @@ a:hover {
 .fotosBlogX {
     display: flex;
     flex-wrap: wrap;
+    max-width: 50vw;
     justify-content: space-evenly; /* Cambiado de 'center' a 'space-evenly' para asegurar espacio entre las imágenes */
 }
 
