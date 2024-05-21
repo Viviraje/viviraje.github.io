@@ -284,6 +284,7 @@ a:hover {
 .textoBlog {
     margin-top: 20px;
     text-align: left;
+    max-width: 70vw;
 }
 
 .videosBlog {
